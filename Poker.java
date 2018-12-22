@@ -11,7 +11,7 @@ public class Main {
 	private ArrayList<Hand> hands, tied, winner;
 	
 	private final int[] RANKS = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
-	private final int [] SUITS = {0, 1, 2, 3};
+	private final int[] SUITS = {0, 1, 2, 3};
 	
 	private int sims = 100000;
 	private int wins = 0;
